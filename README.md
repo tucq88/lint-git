@@ -33,3 +33,7 @@ npm install --save-dev @commitlint/config-conventional @commitlint/cli
 # Configure commitlint to use angular config
 echo "module.exports = {extends: ['@commitlint/config-conventional']}" > commitlint.config.js
 ```
+
+## Release
+- First time release: `npm run release -- --first-release`
+- Normal release: `npm run release`
