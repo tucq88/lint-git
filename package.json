@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "release": "standard-changelog"
+  },
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^7.0.0",
     "@commitlint/config-conventional": "^7.0.1",
-    "husky": "^1.0.0-rc.13"
+    "husky": "^1.0.0-rc.13",
+    "standard-changelog": "^2.0.1"
   },
   "husky": {
     "hooks": {
